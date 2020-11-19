@@ -1,0 +1,5 @@
+hello.
+nice to meet you.
+java is awesome.
+hi there.hello this is java
+hello world
