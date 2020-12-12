@@ -28,21 +28,22 @@ class Threadder extends Thread {
 }
 
 /*
- * •publicvoidrun():isused toperformactionforathread. 
- * •public void start() :starts the execution of the thread. JVM calls the run()method onthethread.
- * •publicvoidsleep(long miliseconds): Causes the currentlyexecuting thread to
+ * publicvoidrun()             :isused toperformactionforathread. 
+ * public void start()         :starts the execution of the thread. JVM calls the run()method onthethread.
+ * publicvoidsleep(long miliseconds): Causes the currentlyexecuting thread to
  * sleep (temporarily cease execution) for the specified numberof milliseconds.
- * •publicvoidjoin():waitsforathreadtodie.
- * •publicintgetPriority():returnsthepriorityofthethread. •public int
- * setPriority(int priority) : changes the priority of the thread. •public
- * String getName(): returns the name of the thread. •public Thread
- * currentThread() : returns the reference of currently executing thread.
- * •public int getId() : returns the id of the thread. •public
- * Thread.StategetState() : returns the state of the thread. •public
- * booleanisAlive() : tests if the thread is alive. •public void suspend() : is
- * used to suspend the thread(depricated). • •public void resume() : is used to
- * resume the suspended thread •public void stop() : is used to stop the
- * thread(depricated). •public booleanisDaemon() : tests if the thread is a
+ * publicvoidjoin()            :waitsforathreadtodie.
+ * publicintgetPriority()      :returnsthepriorityofthethread. •public int
+ * setPriority(int priority)   : changes the priority of the thread. •public
+ * String getName()            : returns the name of the thread. •public Thread
+ * currentThread()             : returns the reference of currently executing thread.
+ * public int getId()          : returns the id of the thread. •public
+ * Thread.StategetState()      : returns the state of the thread. •public
+ * booleanisAlive()            : tests if the thread is alive. •public void suspend() : is
+ * used to suspend the thread(depricated). • 
+ * public void resume() : is used to resume the suspended thread 
+ * public void stop()           : is used to stop the thread 
+ * •public booleanisDaemon() : tests if the thread is a
  * daemon thread
  * 
  */
@@ -55,7 +56,7 @@ class multi_threading {
 // every java program has main method.
 /*
  * •The main thread is created automatically when our program is started.
- * •Tocontrolitwemustobtainareferencetoit. • This can be done by calling the
+ * •Tocontrol it we must obtain a reference to it. • This can be done by calling the
  * method currentThread( ) which is presentinThreadclass. • Thismethod
  * returnsareferencetothethreadonwhichitiscalled. •The default priority of Main
  * thread is 5 and for all remaining user threads
