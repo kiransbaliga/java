@@ -4,5 +4,9 @@
         "**/.project": true,
         "**/.settings": true,
         "**/.factorypath": true
-    }
+    },
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "mysql-connector-java-5.1.49-bin.jar"
+    ]
 }
